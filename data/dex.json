@@ -1,0 +1,2772 @@
+{
+ "version": 1,
+ "source": "pokeapi.co",
+ "generated_at": "2026-10-25 15:24:06",
+ "roots": [
+  "1",
+  "4",
+  "7",
+  "52",
+  "92",
+  "129",
+  "133",
+  "144",
+  "145",
+  "146",
+  "150",
+  "151",
+  "155",
+  "158",
+  "172",
+  "175",
+  "179",
+  "243",
+  "244",
+  "245",
+  "249",
+  "250",
+  "252",
+  "255",
+  "258",
+  "263",
+  "280",
+  "380",
+  "381",
+  "382",
+  "383",
+  "384",
+  "385",
+  "387",
+  "393",
+  "446",
+  "447",
+  "491",
+  "493",
+  "501",
+  "570",
+  "656",
+  "722",
+  "728",
+  "810",
+  "912"
+ ],
+ "entries": {
+  "1": {
+   "id": 1,
+   "en": "bulbasaur",
+   "zh": "妙蛙种子",
+   "color": "green",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "背上的种子里储存着营养， 所以即使好几天不吃东西 也可以活得好好的！",
+   "types": [
+    "grass",
+    "poison"
+   ]
+  },
+  "2": {
+   "id": 2,
+   "en": "ivysaur",
+   "zh": "妙蛙草",
+   "color": "green",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "它的花苞会在吸收养分后 长大。当花苞发出香味时， 就预示着它快要开花了。",
+   "types": [
+    "grass",
+    "poison"
+   ]
+  },
+  "3": {
+   "id": 3,
+   "en": "venusaur",
+   "zh": "妙蛙花",
+   "color": "green",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "它背上开出的大花 能够吸收太阳光 并将其转换为能量。",
+   "types": [
+    "grass",
+    "poison"
+   ]
+  },
+  "4": {
+   "id": 4,
+   "en": "charmander",
+   "zh": "小火龙",
+   "color": "red",
+   "habitat": "mountain",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "要是把它带到安静的地方， 就能听到它的尾巴燃烧时 发出的微小的声音。",
+   "types": [
+    "fire"
+   ]
+  },
+  "5": {
+   "id": 5,
+   "en": "charmeleon",
+   "zh": "火恐龙",
+   "color": "red",
+   "habitat": "mountain",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "在与强敌战斗的过程中， 如果情绪变得兴奋起来， 有时会喷出青白色的烈火。",
+   "types": [
+    "fire"
+   ]
+  },
+  "6": {
+   "id": 6,
+   "en": "charizard",
+   "zh": "喷火龙",
+   "color": "red",
+   "habitat": "mountain",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "从口中喷出灼热的火焰时， 尾巴尖端的红色火焰 会燃烧得更加猛烈。",
+   "types": [
+    "fire",
+    "flying"
+   ]
+  },
+  "7": {
+   "id": 7,
+   "en": "squirtle",
+   "zh": "杰尼龟",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "通过从水面喷水来捕食。 在危急时刻会将四肢 缩入龟壳里保护自己。",
+   "types": [
+    "water"
+   ]
+  },
+  "8": {
+   "id": 8,
+   "en": "wartortle",
+   "zh": "卡咪龟",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "如果拍打它的头部，它会 把头缩进壳里，但尾巴 还是会露出来一点点。",
+   "types": [
+    "water"
+   ]
+  },
+  "9": {
+   "id": 9,
+   "en": "blastoise",
+   "zh": "水箭龟",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "一旦锁定了目标， 它会以超越了消防 水枪的力道来喷水。",
+   "types": [
+    "water"
+   ]
+  },
+  "25": {
+   "id": 25,
+   "en": "pikachu",
+   "zh": "皮卡丘",
+   "color": "yellow",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 190,
+   "growth_rate": "medium",
+   "flavor": "最近发表了聚集大量皮卡丘， 建造发电厂的计划。",
+   "types": [
+    "electric"
+   ]
+  },
+  "26": {
+   "id": 26,
+   "en": "raichu",
+   "zh": "雷丘",
+   "color": "yellow",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 75,
+   "growth_rate": "medium",
+   "flavor": "电击有时候会达到十万伏特， 不小心碰到的话， 连印度象也会昏厥。",
+   "types": [
+    "electric"
+   ]
+  },
+  "52": {
+   "id": 52,
+   "en": "meowth",
+   "zh": "喵喵",
+   "color": "yellow",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 255,
+   "growth_rate": "medium",
+   "flavor": "白天就一直睡啊睡地度过， 太阳落山时才开始活动。 在夜晚的街道上搜寻硬币。",
+   "types": [
+    "normal"
+   ]
+  },
+  "53": {
+   "id": 53,
+   "en": "persian",
+   "zh": "猫老大",
+   "color": "yellow",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 90,
+   "growth_rate": "medium",
+   "flavor": "性情粗暴，只要视线对上就会 猛扑过来。被锐利的爪子抓到的话， 就会留下很深的伤口。",
+   "types": [
+    "normal"
+   ]
+  },
+  "92": {
+   "id": 92,
+   "en": "gastly",
+   "zh": "鬼斯",
+   "color": "purple",
+   "habitat": "cave",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 190,
+   "growth_rate": "medium-slow",
+   "flavor": "如果在已成废墟的 建筑物里亮着怪异的光， 说明那里潜藏着鬼斯。",
+   "types": [
+    "ghost",
+    "poison"
+   ]
+  },
+  "93": {
+   "id": 93,
+   "en": "haunter",
+   "zh": "鬼斯通",
+   "color": "purple",
+   "habitat": "cave",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 90,
+   "growth_rate": "medium-slow",
+   "flavor": "从阴暗处袭击人类。 如果被其冰冷的舌头舔到， 就会一天天虚弱至死。",
+   "types": [
+    "ghost",
+    "poison"
+   ]
+  },
+  "94": {
+   "id": 94,
+   "en": "gengar",
+   "zh": "耿鬼",
+   "color": "purple",
+   "habitat": "cave",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "如果突然被寒气侵袭， 那就是被耿鬼袭击的证据。 没有可逃之法，所以死心吧。",
+   "types": [
+    "ghost",
+    "poison"
+   ]
+  },
+  "129": {
+   "id": 129,
+   "en": "magikarp",
+   "zh": "鲤鱼王",
+   "color": "red",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 255,
+   "growth_rate": "slow",
+   "flavor": "力量很弱，派不上用场， 但就只有繁殖力惊人。 多得简直要看腻了。",
+   "types": [
+    "water"
+   ]
+  },
+  "130": {
+   "id": 130,
+   "en": "gyarados",
+   "zh": "暴鲤龙",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "slow",
+   "flavor": "据说，让暴鲤龙怒火中烧的 某个街镇在一晚上就被燃烧殆尽， 然后便消失无踪了。",
+   "types": [
+    "water",
+    "flying"
+   ]
+  },
+  "133": {
+   "id": 133,
+   "en": "eevee",
+   "zh": "伊布",
+   "color": "brown",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "拥有不平衡性外加不稳定的 遗传基因，因而蕴含着各种 各样的进化可能性。",
+   "types": [
+    "normal"
+   ]
+  },
+  "134": {
+   "id": 134,
+   "en": "vaporeon",
+   "zh": "水伊布",
+   "color": "blue",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "细胞构造与水分子非常相似。 在水边栖息，所以有时候 会被错认为是人鱼。",
+   "types": [
+    "water"
+   ]
+  },
+  "135": {
+   "id": 135,
+   "en": "jolteon",
+   "zh": "雷伊布",
+   "color": "yellow",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "喷出大约１００００伏特的电力。 因为相当神经质，所以要与它 变得亲密是非常困难的。",
+   "types": [
+    "electric"
+   ]
+  },
+  "136": {
+   "id": 136,
+   "en": "flareon",
+   "zh": "火伊布",
+   "color": "red",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "如果寻获树果或是捉到猎物， 就会喷出火焰将其烤至完全熟透， 之后大口大口吃掉。",
+   "types": [
+    "fire"
+   ]
+  },
+  "143": {
+   "id": 143,
+   "en": "snorlax",
+   "zh": "卡比兽",
+   "color": "black",
+   "habitat": "mountain",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 25,
+   "growth_rate": "slow",
+   "flavor": "据说拥有最强的胃袋。 就连臭臭泥的毒对卡比兽的 舌头来说也只是调味料而已。",
+   "types": [
+    "normal"
+   ]
+  },
+  "144": {
+   "id": 144,
+   "en": "articuno",
+   "zh": "急冻鸟",
+   "color": "blue",
+   "habitat": "rare",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "传说的鸟宝可梦。它能将 冬日空中的空气中含有的 水分冻结，降下雪花。",
+   "types": [
+    "ice",
+    "flying"
+   ]
+  },
+  "145": {
+   "id": 145,
+   "en": "zapdos",
+   "zh": "闪电鸟",
+   "color": "yellow",
+   "habitat": "rare",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "当天空黑暗，落雷 不断时，这只传说的 宝可梦就会出现。",
+   "types": [
+    "electric",
+    "flying"
+   ]
+  },
+  "146": {
+   "id": 146,
+   "en": "moltres",
+   "zh": "火焰鸟",
+   "color": "yellow",
+   "habitat": "rare",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "传说的鸟宝可梦。当它 挥舞起剧烈燃烧着的双翅， 哪怕是夜空也会被点亮。",
+   "types": [
+    "fire",
+    "flying"
+   ]
+  },
+  "150": {
+   "id": 150,
+   "en": "mewtwo",
+   "zh": "超梦",
+   "color": "purple",
+   "habitat": "rare",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "超梦的基因几乎和梦幻 完全一样，但是大小和 性格却迥异得让人吃惊。",
+   "types": [
+    "psychic"
+   ]
+  },
+  "151": {
+   "id": 151,
+   "en": "mew",
+   "zh": "梦幻",
+   "color": "pink",
+   "habitat": "rare",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "用显微镜可以看到 它身上极短极细 且密集的体毛。",
+   "types": [
+    "psychic"
+   ]
+  },
+  "155": {
+   "id": 155,
+   "en": "cyndaquil",
+   "zh": "火球鼠",
+   "color": "yellow",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "fire"
+   ]
+  },
+  "156": {
+   "id": 156,
+   "en": "quilava",
+   "zh": "火岩鼠",
+   "color": "yellow",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "fire"
+   ]
+  },
+  "157": {
+   "id": 157,
+   "en": "typhlosion",
+   "zh": "火暴兽",
+   "color": "yellow",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "fire"
+   ]
+  },
+  "158": {
+   "id": 158,
+   "en": "totodile",
+   "zh": "小锯鳄",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "159": {
+   "id": 159,
+   "en": "croconaw",
+   "zh": "蓝鳄",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "160": {
+   "id": 160,
+   "en": "feraligatr",
+   "zh": "大力鳄",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "172": {
+   "id": 172,
+   "en": "pichu",
+   "zh": "皮丘",
+   "color": "yellow",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": true,
+   "capture_rate": 190,
+   "growth_rate": "medium",
+   "flavor": "运用电的水平还不够。 稍不留神就被自己的电 麻到也时有发生。",
+   "types": [
+    "electric"
+   ]
+  },
+  "175": {
+   "id": 175,
+   "en": "togepi",
+   "zh": "波克比",
+   "color": "white",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": true,
+   "capture_rate": 190,
+   "growth_rate": "fast",
+   "flavor": "壳内好像塞满了很多幸福， 据说如果能温柔对待它， 它就会把幸运分给对方。",
+   "types": [
+    "fairy"
+   ]
+  },
+  "176": {
+   "id": 176,
+   "en": "togetic",
+   "zh": "波克基古",
+   "color": "white",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 75,
+   "growth_rate": "fast",
+   "flavor": "据说它是为了将幸福带给 性格温柔的人而现身的。",
+   "types": [
+    "fairy",
+    "flying"
+   ]
+  },
+  "179": {
+   "id": 179,
+   "en": "mareep",
+   "zh": "咩利羊",
+   "color": "white",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 235,
+   "growth_rate": "medium-slow",
+   "flavor": "用咩利羊的毛制成的 衣服容易起静电， 所以会做特殊加工。",
+   "types": [
+    "electric"
+   ]
+  },
+  "180": {
+   "id": 180,
+   "en": "flaaffy",
+   "zh": "茸茸羊",
+   "color": "pink",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 120,
+   "growth_rate": "medium-slow",
+   "flavor": "毛发不生有如橡胶一样的 皮肤不会导电， 即便触电了也很安全。",
+   "types": [
+    "electric"
+   ]
+  },
+  "181": {
+   "id": 181,
+   "en": "ampharos",
+   "zh": "电龙",
+   "color": "yellow",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "尾巴上的光能传至宇宙， 所以身在何处一目了然。 因此它平时不会让尾巴发光。",
+   "types": [
+    "electric"
+   ]
+  },
+  "196": {
+   "id": 196,
+   "en": "espeon",
+   "zh": "太阳伊布",
+   "color": "purple",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "利用又细又短的体毛， 从空气的流动中，连对手的行动 也能一瞬间就察觉。",
+   "types": [
+    "psychic"
+   ]
+  },
+  "197": {
+   "id": 197,
+   "en": "umbreon",
+   "zh": "月亮伊布",
+   "color": "black",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "发怒的时候会从全身的毛孔里 喷出混合了毒素的汗液， 袭击对手的眼睛。",
+   "types": [
+    "dark"
+   ]
+  },
+  "243": {
+   "id": 243,
+   "en": "raikou",
+   "zh": "雷公",
+   "color": "yellow",
+   "habitat": "grassland",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "electric"
+   ]
+  },
+  "244": {
+   "id": 244,
+   "en": "entei",
+   "zh": "炎帝",
+   "color": "brown",
+   "habitat": "grassland",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "fire"
+   ]
+  },
+  "245": {
+   "id": 245,
+   "en": "suicune",
+   "zh": "水君",
+   "color": "blue",
+   "habitat": "grassland",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "249": {
+   "id": 249,
+   "en": "lugia",
+   "zh": "洛奇亚",
+   "color": "white",
+   "habitat": "rare",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "psychic",
+    "flying"
+   ]
+  },
+  "250": {
+   "id": 250,
+   "en": "ho-oh",
+   "zh": "凤王",
+   "color": "red",
+   "habitat": "rare",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "fire",
+    "flying"
+   ]
+  },
+  "252": {
+   "id": 252,
+   "en": "treecko",
+   "zh": "木守宫",
+   "color": "green",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "grass"
+   ]
+  },
+  "253": {
+   "id": 253,
+   "en": "grovyle",
+   "zh": "森林蜥蜴",
+   "color": "green",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "grass"
+   ]
+  },
+  "254": {
+   "id": 254,
+   "en": "sceptile",
+   "zh": "蜥蜴王",
+   "color": "green",
+   "habitat": "forest",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "grass"
+   ]
+  },
+  "255": {
+   "id": 255,
+   "en": "torchic",
+   "zh": "火稚鸡",
+   "color": "red",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "fire"
+   ]
+  },
+  "256": {
+   "id": 256,
+   "en": "combusken",
+   "zh": "力壮鸡",
+   "color": "red",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "fire",
+    "fighting"
+   ]
+  },
+  "257": {
+   "id": 257,
+   "en": "blaziken",
+   "zh": "火焰鸡",
+   "color": "red",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "fire",
+    "fighting"
+   ]
+  },
+  "258": {
+   "id": 258,
+   "en": "mudkip",
+   "zh": "水跃鱼",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "259": {
+   "id": 259,
+   "en": "marshtomp",
+   "zh": "沼跃鱼",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water",
+    "ground"
+   ]
+  },
+  "260": {
+   "id": 260,
+   "en": "swampert",
+   "zh": "巨沼怪",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water",
+    "ground"
+   ]
+  },
+  "263": {
+   "id": 263,
+   "en": "zigzagoon",
+   "zh": "蛇纹熊",
+   "color": "brown",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 255,
+   "growth_rate": "medium",
+   "flavor": "会用背上的硬毛摩擦树木， 留下代表自己地盘的标记。 性情比伽勒尔的蛇纹熊温驯。",
+   "types": [
+    "normal"
+   ]
+  },
+  "264": {
+   "id": 264,
+   "en": "linoone",
+   "zh": "直冲熊",
+   "color": "white",
+   "habitat": "grassland",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 90,
+   "growth_rate": "medium",
+   "flavor": "体毛拥有良好的韧度与质感。 用它身上掉下来的毛制成的 剃须刷是最上等的高级货。",
+   "types": [
+    "normal"
+   ]
+  },
+  "280": {
+   "id": 280,
+   "en": "ralts",
+   "zh": "拉鲁拉丝",
+   "color": "white",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 235,
+   "growth_rate": "slow",
+   "flavor": "能敏锐地捕捉人和宝可梦的感情。 感受到敌意后就会躲进暗处。",
+   "types": [
+    "psychic",
+    "fairy"
+   ]
+  },
+  "281": {
+   "id": 281,
+   "en": "kirlia",
+   "zh": "奇鲁莉安",
+   "color": "white",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 120,
+   "growth_rate": "slow",
+   "flavor": "当训练家高兴的时候， 奇鲁莉安会充满能量， 开心地转着圈跳舞。",
+   "types": [
+    "psychic",
+    "fairy"
+   ]
+  },
+  "282": {
+   "id": 282,
+   "en": "gardevoir",
+   "zh": "沙奈朵",
+   "color": "white",
+   "habitat": "urban",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "slow",
+   "flavor": "有着预知未来的能力。 在保护训练家的时候， 会发挥出最强的力量。",
+   "types": [
+    "psychic",
+    "fairy"
+   ]
+  },
+  "380": {
+   "id": 380,
+   "en": "latias",
+   "zh": "拉帝亚斯",
+   "color": "red",
+   "habitat": "waters-edge",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "dragon",
+    "psychic"
+   ]
+  },
+  "381": {
+   "id": 381,
+   "en": "latios",
+   "zh": "拉帝欧斯",
+   "color": "blue",
+   "habitat": "waters-edge",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "dragon",
+    "psychic"
+   ]
+  },
+  "382": {
+   "id": 382,
+   "en": "kyogre",
+   "zh": "盖欧卡",
+   "color": "blue",
+   "habitat": "sea",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "383": {
+   "id": 383,
+   "en": "groudon",
+   "zh": "固拉多",
+   "color": "red",
+   "habitat": "rough-terrain",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "ground"
+   ]
+  },
+  "384": {
+   "id": 384,
+   "en": "rayquaza",
+   "zh": "烈空坐",
+   "color": "green",
+   "habitat": "rare",
+   "is_legendary": true,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "dragon",
+    "flying"
+   ]
+  },
+  "385": {
+   "id": 385,
+   "en": "jirachi",
+   "zh": "基拉祈",
+   "color": "yellow",
+   "habitat": "mountain",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "每１０００年让它听一次 清澈的歌声，就能让它 维持７天的清醒。",
+   "types": [
+    "steel",
+    "psychic"
+   ]
+  },
+  "387": {
+   "id": 387,
+   "en": "turtwig",
+   "zh": "草苗龟",
+   "color": "green",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "grass"
+   ]
+  },
+  "388": {
+   "id": 388,
+   "en": "grotle",
+   "zh": "树林龟",
+   "color": "green",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "grass"
+   ]
+  },
+  "389": {
+   "id": 389,
+   "en": "torterra",
+   "zh": "土台龟",
+   "color": "green",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "grass",
+    "ground"
+   ]
+  },
+  "393": {
+   "id": 393,
+   "en": "piplup",
+   "zh": "波加曼",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "394": {
+   "id": 394,
+   "en": "prinplup",
+   "zh": "波皇子",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "395": {
+   "id": 395,
+   "en": "empoleon",
+   "zh": "帝王拿波",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water",
+    "steel"
+   ]
+  },
+  "446": {
+   "id": 446,
+   "en": "munchlax",
+   "zh": "小卡比兽",
+   "color": "black",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": true,
+   "capture_rate": 50,
+   "growth_rate": "slow",
+   "flavor": "每天必须要吃和自重 同等分量的食物。 味道的好坏并不在意。",
+   "types": [
+    "normal"
+   ]
+  },
+  "447": {
+   "id": 447,
+   "en": "riolu",
+   "zh": "利欧路",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": true,
+   "capture_rate": 75,
+   "growth_rate": "medium-slow",
+   "flavor": "以“波导”这种波的形式 观察人和宝可梦的感情， 以及自然的样子。",
+   "types": [
+    "fighting"
+   ]
+  },
+  "448": {
+   "id": 448,
+   "en": "lucario",
+   "zh": "路卡利欧",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "不仅仅是读取， 还获得了操控波导的能力。 也会被用于战斗。",
+   "types": [
+    "fighting",
+    "steel"
+   ]
+  },
+  "468": {
+   "id": 468,
+   "en": "togekiss",
+   "zh": "波克基斯",
+   "color": "white",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 30,
+   "growth_rate": "fast",
+   "flavor": "不会出现在发生 争端和纷乱的地方。 近来几乎见不到它的身影。",
+   "types": [
+    "fairy",
+    "flying"
+   ]
+  },
+  "470": {
+   "id": 470,
+   "en": "leafeon",
+   "zh": "叶伊布",
+   "color": "green",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "比起动物，细胞构成 更接近植物。用光合作用， 就算不吃也能获得能量。",
+   "types": [
+    "grass"
+   ]
+  },
+  "471": {
+   "id": 471,
+   "en": "glaceon",
+   "zh": "冰伊布",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "自由地控制体温， 让大气中的水分冻结， 卷起冰晶。",
+   "types": [
+    "ice"
+   ]
+  },
+  "475": {
+   "id": 475,
+   "en": "gallade",
+   "zh": "艾路雷朵",
+   "color": "white",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "slow",
+   "flavor": "被称为武神的宝可梦。 只有在为了保护什么的时候 才会去使用自己的肘刀。",
+   "types": [
+    "psychic",
+    "fighting"
+   ]
+  },
+  "491": {
+   "id": 491,
+   "en": "darkrai",
+   "zh": "达克莱伊",
+   "color": "black",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "dark"
+   ]
+  },
+  "493": {
+   "id": 493,
+   "en": "arceus",
+   "zh": "阿尔宙斯",
+   "color": "white",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 3,
+   "growth_rate": "slow",
+   "flavor": "",
+   "types": [
+    "normal"
+   ]
+  },
+  "501": {
+   "id": 501,
+   "en": "oshawott",
+   "zh": "水水獭",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "502": {
+   "id": 502,
+   "en": "dewott",
+   "zh": "双刃丸",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "503": {
+   "id": 503,
+   "en": "samurott",
+   "zh": "大剑鬼",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "570": {
+   "id": 570,
+   "en": "zorua",
+   "zh": "索罗亚",
+   "color": "gray",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 75,
+   "growth_rate": "medium-slow",
+   "flavor": "性格胆小的宝可梦， 不和伙伴呆在一起的时候， 通常都会幻化成其他东西。",
+   "types": [
+    "dark"
+   ]
+  },
+  "571": {
+   "id": 571,
+   "en": "zoroark",
+   "zh": "索罗亚克",
+   "color": "gray",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "不只是幻化成其他东西， 还拥有让几百人看见幻像的力量。",
+   "types": [
+    "dark"
+   ]
+  },
+  "656": {
+   "id": 656,
+   "en": "froakie",
+   "zh": "呱呱泡蛙",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "657": {
+   "id": 657,
+   "en": "frogadier",
+   "zh": "呱头蛙",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "658": {
+   "id": 658,
+   "en": "greninja",
+   "zh": "甲贺忍蛙",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water",
+    "dark"
+   ]
+  },
+  "700": {
+   "id": 700,
+   "en": "sylveon",
+   "zh": "仙子伊布",
+   "color": "pink",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "从蝴蝶结那样的触角里 释放出削弱敌意的波动， 令猎物大意后袭击对方。",
+   "types": [
+    "fairy"
+   ]
+  },
+  "722": {
+   "id": 722,
+   "en": "rowlet",
+   "zh": "木木枭",
+   "color": "brown",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "戒备心很强。 白天利用光合作用积蓄力量， 到了晚上就开始活动。",
+   "types": [
+    "grass",
+    "flying"
+   ]
+  },
+  "723": {
+   "id": 723,
+   "en": "dartrix",
+   "zh": "投羽枭",
+   "color": "brown",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "很注重外表，只要有空就会整理翅膀。 有时候也会因为过于在意羽毛的 整洁而无法战斗。",
+   "types": [
+    "grass",
+    "flying"
+   ]
+  },
+  "724": {
+   "id": 724,
+   "en": "decidueye",
+   "zh": "狙射树枭",
+   "color": "brown",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "搭弦射出收藏在翅膀里的箭羽。 有着连前方１００米的小石头 也能穿透的精度。",
+   "types": [
+    "grass",
+    "ghost"
+   ]
+  },
+  "728": {
+   "id": 728,
+   "en": "popplio",
+   "zh": "球球海狮",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "因为勤奋的性格而有名。 用鼻子将体液吹成气球， 扔向敌人。",
+   "types": [
+    "water"
+   ]
+  },
+  "729": {
+   "id": 729,
+   "en": "brionne",
+   "zh": "花漾海狮",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "擅长跳舞，能够边跳舞， 边一个接一个地 制作水做的气球扔向敌人。",
+   "types": [
+    "water"
+   ]
+  },
+  "730": {
+   "id": 730,
+   "en": "primarina",
+   "zh": "西狮海壬",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "用歌声操纵水做的气球。 这个旋律会在伙伴间学习， 被一代代地群体传承下去。",
+   "types": [
+    "water",
+    "fairy"
+   ]
+  },
+  "810": {
+   "id": 810,
+   "en": "grookey",
+   "zh": "敲音猴",
+   "color": "green",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "当它用特别的木棒敲奏时， 能够给予花草活力的力量 就会变成音波扩散开来。",
+   "types": [
+    "grass"
+   ]
+  },
+  "811": {
+   "id": 811,
+   "en": "thwackey",
+   "zh": "啪咚猴",
+   "color": "green",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "越是能用２根木棒敲奏出 激烈节拍的啪咚猴， 越是能获得伙伴们的尊敬。",
+   "types": [
+    "grass"
+   ]
+  },
+  "812": {
+   "id": 812,
+   "en": "rillaboom",
+   "zh": "轰擂金刚猩",
+   "color": "green",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "能够通过打鼓来控制 特别的树桩中的力量， 操纵树根进行战斗。",
+   "types": [
+    "grass"
+   ]
+  },
+  "862": {
+   "id": 862,
+   "en": "obstagoon",
+   "zh": "堵拦熊",
+   "color": "gray",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium",
+   "flavor": "能够发出惊人的音量。 它在大叫的同时威吓对手 的样子被称为“拦堵”。",
+   "types": [
+    "dark",
+    "normal"
+   ]
+  },
+  "863": {
+   "id": 863,
+   "en": "perrserker",
+   "zh": "喵头目",
+   "color": "brown",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 90,
+   "growth_rate": "medium",
+   "flavor": "有着十分好战的性格。 头上像铁头盔一样的东西 其实是它硬化后的体毛。",
+   "types": [
+    "steel"
+   ]
+  },
+  "912": {
+   "id": 912,
+   "en": "quaxly",
+   "zh": "润水鸭",
+   "color": "white",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "913": {
+   "id": 913,
+   "en": "quaxwell",
+   "zh": "涌跃鸭",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water"
+   ]
+  },
+  "914": {
+   "id": 914,
+   "en": "quaquaval",
+   "zh": "狂欢浪舞鸭",
+   "color": "blue",
+   "habitat": "",
+   "is_legendary": false,
+   "is_baby": false,
+   "capture_rate": 45,
+   "growth_rate": "medium-slow",
+   "flavor": "",
+   "types": [
+    "water",
+    "fighting"
+   ]
+  }
+ },
+ "evolution": {
+  "3": [],
+  "2": [
+   {
+    "to": 3,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 32,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "1": [
+   {
+    "to": 2,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "6": [],
+  "5": [
+   {
+    "to": 6,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "4": [
+   {
+    "to": 5,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "9": [],
+  "8": [
+   {
+    "to": 9,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "7": [
+   {
+    "to": 8,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "26": [],
+  "25": [
+   {
+    "to": 26,
+    "conditions": [
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "thunder-stone",
+      "time_of_day": ""
+     },
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "thunder-stone",
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "172": [
+   {
+    "to": 25,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 220,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "134": [],
+  "135": [],
+  "136": [],
+  "196": [],
+  "197": [],
+  "470": [],
+  "471": [],
+  "700": [],
+  "133": [
+   {
+    "to": 134,
+    "conditions": [
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "water-stone",
+      "time_of_day": ""
+     }
+    ]
+   },
+   {
+    "to": 135,
+    "conditions": [
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "thunder-stone",
+      "time_of_day": ""
+     }
+    ]
+   },
+   {
+    "to": 136,
+    "conditions": [
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "fire-stone",
+      "time_of_day": ""
+     }
+    ]
+   },
+   {
+    "to": 196,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 160,
+      "item": null,
+      "time_of_day": "day"
+     }
+    ]
+   },
+   {
+    "to": 197,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 160,
+      "item": null,
+      "time_of_day": "night"
+     }
+    ]
+   },
+   {
+    "to": 470,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "leaf-stone",
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   },
+   {
+    "to": 471,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "ice-stone",
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   },
+   {
+    "to": 700,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 160,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "53": [],
+  "863": [],
+  "52": [
+   {
+    "to": 53,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 28,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 160,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   },
+   {
+    "to": 863,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 28,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "94": [],
+  "93": [
+   {
+    "to": 94,
+    "conditions": [
+     {
+      "trigger": "trade",
+      "min_level": null,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "92": [
+   {
+    "to": 93,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 25,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "130": [],
+  "129": [
+   {
+    "to": 130,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 20,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "143": [],
+  "446": [
+   {
+    "to": 143,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 160,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "157": [],
+  "156": [
+   {
+    "to": 157,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "155": [
+   {
+    "to": 156,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 14,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": 17,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "160": [],
+  "159": [
+   {
+    "to": 160,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 30,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "158": [
+   {
+    "to": 159,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 18,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "468": [],
+  "176": [
+   {
+    "to": 468,
+    "conditions": [
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "shiny-stone",
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "175": [
+   {
+    "to": 176,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 160,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "181": [],
+  "180": [
+   {
+    "to": 181,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 30,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "179": [
+   {
+    "to": 180,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 15,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "254": [],
+  "253": [
+   {
+    "to": 254,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "252": [
+   {
+    "to": 253,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "257": [],
+  "256": [
+   {
+    "to": 257,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "255": [
+   {
+    "to": 256,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "260": [],
+  "259": [
+   {
+    "to": 260,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "258": [
+   {
+    "to": 259,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "862": [],
+  "264": [
+   {
+    "to": 862,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 35,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": "night"
+     }
+    ]
+   }
+  ],
+  "263": [
+   {
+    "to": 264,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 20,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": 20,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "282": [],
+  "475": [],
+  "281": [
+   {
+    "to": 282,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 30,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   },
+   {
+    "to": 475,
+    "conditions": [
+     {
+      "trigger": "use-item",
+      "min_level": null,
+      "min_happiness": null,
+      "item": "dawn-stone",
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "280": [
+   {
+    "to": 281,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 20,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "389": [],
+  "388": [
+   {
+    "to": 389,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 32,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "387": [
+   {
+    "to": 388,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 18,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "395": [],
+  "394": [
+   {
+    "to": 395,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "393": [
+   {
+    "to": 394,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "448": [],
+  "447": [
+   {
+    "to": 448,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": null,
+      "min_happiness": 160,
+      "item": null,
+      "time_of_day": "day"
+     }
+    ]
+   }
+  ],
+  "503": [],
+  "502": [
+   {
+    "to": 503,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "501": [
+   {
+    "to": 502,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 17,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "571": [],
+  "570": [
+   {
+    "to": 571,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 30,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": 30,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "658": [],
+  "657": [
+   {
+    "to": 658,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "656": [
+   {
+    "to": 657,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "724": [],
+  "723": [
+   {
+    "to": 724,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 34,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     },
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "722": [
+   {
+    "to": 723,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 17,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "730": [],
+  "729": [
+   {
+    "to": 730,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 34,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "728": [
+   {
+    "to": 729,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 17,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "812": [],
+  "811": [
+   {
+    "to": 812,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 35,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "810": [
+   {
+    "to": 811,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "914": [],
+  "913": [
+   {
+    "to": 914,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 36,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "912": [
+   {
+    "to": 913,
+    "conditions": [
+     {
+      "trigger": "level-up",
+      "min_level": 16,
+      "min_happiness": null,
+      "item": null,
+      "time_of_day": ""
+     }
+    ]
+   }
+  ],
+  "144": [],
+  "145": [],
+  "146": [],
+  "150": [],
+  "151": [],
+  "243": [],
+  "244": [],
+  "245": [],
+  "249": [],
+  "250": [],
+  "380": [],
+  "381": [],
+  "382": [],
+  "383": [],
+  "384": [],
+  "385": [],
+  "491": [],
+  "493": []
+ },
+ "parents": {
+  "3": 2,
+  "2": 1,
+  "1": null,
+  "6": 5,
+  "5": 4,
+  "4": null,
+  "9": 8,
+  "8": 7,
+  "7": null,
+  "26": 25,
+  "25": 172,
+  "172": null,
+  "134": 133,
+  "135": 133,
+  "136": 133,
+  "196": 133,
+  "197": 133,
+  "470": 133,
+  "471": 133,
+  "700": 133,
+  "133": null,
+  "53": 52,
+  "863": 52,
+  "52": null,
+  "94": 93,
+  "93": 92,
+  "92": null,
+  "130": 129,
+  "129": null,
+  "143": 446,
+  "446": null,
+  "157": 156,
+  "156": 155,
+  "155": null,
+  "160": 159,
+  "159": 158,
+  "158": null,
+  "468": 176,
+  "176": 175,
+  "175": null,
+  "181": 180,
+  "180": 179,
+  "179": null,
+  "254": 253,
+  "253": 252,
+  "252": null,
+  "257": 256,
+  "256": 255,
+  "255": null,
+  "260": 259,
+  "259": 258,
+  "258": null,
+  "862": 264,
+  "264": 263,
+  "263": null,
+  "282": 281,
+  "475": 281,
+  "281": 280,
+  "280": null,
+  "389": 388,
+  "388": 387,
+  "387": null,
+  "395": 394,
+  "394": 393,
+  "393": null,
+  "448": 447,
+  "447": null,
+  "503": 502,
+  "502": 501,
+  "501": null,
+  "571": 570,
+  "570": null,
+  "658": 657,
+  "657": 656,
+  "656": null,
+  "724": 723,
+  "723": 722,
+  "722": null,
+  "730": 729,
+  "729": 728,
+  "728": null,
+  "812": 811,
+  "811": 810,
+  "810": null,
+  "914": 913,
+  "913": 912,
+  "912": null,
+  "144": null,
+  "145": null,
+  "146": null,
+  "150": null,
+  "151": null,
+  "243": null,
+  "244": null,
+  "245": null,
+  "249": null,
+  "250": null,
+  "380": null,
+  "381": null,
+  "382": null,
+  "383": null,
+  "384": null,
+  "385": null,
+  "491": null,
+  "493": null
+ }
+}

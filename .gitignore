@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+tools/.smoke_report.txt
+*.tmp
+
+# 运行期生成的本机数据（存档在 %USERPROFILE%\.pokepal，这里只是防呆）
+save.json
+.pokepal/
+sprite_cache/
+
+# 打包 / IDE
+dist/
+build/
+*.spec
+.idea/
+.vscode/
