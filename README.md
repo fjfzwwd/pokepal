@@ -280,8 +280,10 @@ python tools/smoke_run.py 12  # 整机 GUI（会自动开关面板并打印报�
 
 ---
 
-## 9. 版权
+## 9. 版权与许可
 
-宝可梦是 Nintendo / Creatures / GAME FREAK 的商标。
-本项目仅作为个人学习与技术演示，素材来自 PokeAPI 与 Pokémon Showdown 的公开图库，
-不做任何分发或商业用途。
+**代码**以 [MIT License](LICENSE) 发布，可以自由使用、修改、分发。
+
+**宝可梦相关内容**：宝可梦是 Nintendo / Creatures / GAME FREAK 的商标。
+本项目仅作为个人学习与技术演示，图鉴数据与素材来自 PokeAPI 与 Pokémon Showdown
+的公开图库，版权归原权利方所有，不做任何商业用途。
